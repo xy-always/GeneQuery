@@ -556,8 +556,8 @@ class GeneQueryName(nn.Module):
         # pred = self.relu(pred)
         # print('pred:', pred.shape)
         # print('gold:', rna_value[:,1:].shape)
-        # loss_predict = F.mse_loss(pred.squeeze(), rna_value[:,1:])
-        loss_predict = self.loss(pred.squeeze(), rna_value[:,1:])
+        loss_predict = F.mse_loss(pred.squeeze(), rna_value[:,1:])
+        # loss_predict = self.loss(pred.squeeze(), rna_value[:,1:])
         
         # total_loss = (loss + loss_predict)/2.0
         return loss_predict.mean(dim=0), self.loss.to_prediction(pred)
