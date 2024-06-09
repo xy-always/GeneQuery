@@ -1,0 +1,1 @@
+pretrained image model or pretrained language model dir
