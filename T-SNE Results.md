@@ -6,6 +6,7 @@ For the first point, we clustered the gene representations after dimensionality 
 We report the visualized genes in Figure 1, and the corresponding genes for different clusters are listed in file GSE_tsne_leiden.txt. In general, genes with similar functions are also close in gene representation space. 
 
 ![Figure 1: Visualize the gene representation of the GSE240429 dataset by TSNE and Leiden cluster](GSE_tsne.jpg)
+Figure 1: Visualize the gene representation of the GSE240429 dataset by TSNE and Leiden cluster
 
 For example, cluster 19 predominantly includes genes encoding ribosomal proteins (e.g., RPS8, RPS27, RPL31, RPL37A), which are essential components of the ribosome. Cluster 11 and Cluster 12 consist of genes with AC and AL prefixes, often associated with uncharacterized transcripts or regions with potential non-coding functions.
 
