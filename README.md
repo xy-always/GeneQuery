@@ -15,10 +15,14 @@ wsi-aware/
 ### run code, take GSE dataset for example
 bash scripts/run_gse.sh
 
-## gene-aware coe
+## gene-aware code
 gene-aware
 
 ### run code, take GSE dataset for example
 bash scripts/run_gse.sh
 
+## Acknowledgements
 
+https://github.com/bowang-lab/BLEEP
+
+https://github.com/maxpmx/HisToGene
