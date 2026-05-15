@@ -1,4 +1,4 @@
-# GeneQuery: A General QA-based Framework for Spatial Gene Expression Predictions from Histology Images
+# [BIBM 2025] GeneQuery: Generalized Gene Expression Prediction from Histology Images via Image-Gene QA
 
 ## dataset
 We have processed the data into h5ad data, which includes:
